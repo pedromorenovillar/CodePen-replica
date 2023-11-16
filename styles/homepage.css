@@ -1,0 +1,226 @@
+/* General styles */
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: #AFB1B0;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+/* Top-section styles */
+
+.top-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.top-section-logo {
+    display: flex;
+    align-content: center;
+    padding: 0px 20px;
+    height: 100%;
+    width: 230px;
+}
+
+.top-section-logo img {
+    width: 200px;
+    height: 100%;
+}
+
+.xplore {
+    margin-left: 0px;
+    font-weight: bold;
+    color: #EFD35F;
+}
+
+.top-section > .top-section-navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px 10px 10px;
+}
+
+.top-section > .top-section-navbar > .nav-links {
+    display: flex;
+    width: 480px;
+    justify-content: space-evenly;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav-links > .nav-link:nth-child(5) {
+    padding-left: 40px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-solid {
+    font-size: 15px;
+    vertical-align: baseline;
+    padding: 7px 0px 0px 12px;
+    color: #AFB1B0;
+}
+
+.top-section > .top-section-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 550px;
+}
+
+.top-section-buttons a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #36383F;
+    align-items: center;
+    font-weight: bold;
+    margin: 7px;
+    height: 35px;
+}
+
+.top-section-buttons > .magnifying-btn a {
+    background-color: black;
+    padding: 5px 10px 10px 0px;
+}
+
+.top-section-buttons > .magnifying-btn i {
+    font-size: 35px;
+    color: #727272;
+}
+
+/* Center-section styles */
+
+.center-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 100%;
+    background: linear-gradient(130deg,#4c4f5a 5%,#202125 85%);
+}
+
+.center-section > .center-section-left {
+    padding: 20px;
+    margin: 10px;
+}
+
+.center-section > .center-section-left > .catchphrase {
+    margin: 20px 25px 20px 0px;
+    font-size: 42px;
+}
+
+.catchphrase > .hand-emoji {
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-size: 33px;
+    vertical-align: text-top;
+}
+
+.center-section > .center-section-left > .site-description {
+    padding: 10px 0px;
+    font-size: 34px;
+}
+
+.center-section > .center-section-left > .center-section-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    gap: 15px;
+    /* margin-top: 30px; */
+}
+
+.center-section-buttons > .sign-up-btn a {
+    background-color: #4BCE79;
+    height: 35px;
+    display:grid;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.center-section-buttons > .sign-up-btn a:hover {
+    background-color: #248c46;
+    color: white;
+}
+
+.center-section-buttons > .learn-more-btn a {
+    background-color:black;
+    height: 35px;
+    display:grid;
+    width: 175px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.center-section-buttons > .learn-more-btn a:hover {
+    background-color: white;
+    color: black;
+}
+
+.center-section > .center-section-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-section > .center-section-right > .codepen-projects-intro {
+    display: flex;
+    color: whitesmoke;
+    padding: 10px 15px 10px 15px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.center-section > .center-section-right img {
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+/* Bottom-section styles */
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 125px;
+    background-color: black;
+}
+
+.bottom-section a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 25px 10px 10px 10px;
+    height: 45px;
+    text-align: center;
+    background-color: #36383F;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AFB1B0;
+    width: 100%;
+}
