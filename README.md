@@ -4,7 +4,7 @@ A replica of the CodePen.io homepage – landing page section to demonstrate tha
 
 ## Project requirements
 
-The requirements can be found [here](https://devcamp.com/trails/digital-foundations/campsites/298/guides/digital-and-coding-literacy-capstone-project), but in short.
+The requirements can be found [here](https://devcamp.com/trails/digital-foundations/campsites/298/guides/digital-and-coding-literacy-capstone-project), but the basics are:
 
 - Navbar that includes "Pens, Projects, Posts, Collections, and Spark with a down chevron (does not need to actually dropdown).
 - Images - use available tools to recreate colors, etc.
