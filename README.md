@@ -1,6 +1,6 @@
 # Coding-Foundations-Project
 
-A replica of the CodePen.io homepage – landing page section to demonstrate what I've learned in the course.
+A replica of the CodePen.io homepage – landing page section to demonstrate that I've learnt the frontend coding foundations: HTML 5, CSS and FlexBox.
 
 ## Project requirements
 
