@@ -1,7 +1,0 @@
-{
-  "name": "pedromorenovillar/coding-foundations-project",
-  "description": "A simple static HTML site served with PHP on Heroku.",
-  "require": {
-      "php": "^8.0"
-  }
-}
